@@ -1,0 +1,4 @@
+title = "Triangle Example"
+output = "triangle"
+build_dir = "build"
+kernel_mode = false
