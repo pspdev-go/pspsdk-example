@@ -1,0 +1,4 @@
+title = "RTC Clock Example"
+output = "clock"
+build_dir = "build"
+kernel_mode = false

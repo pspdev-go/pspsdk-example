@@ -1,0 +1,4 @@
+title = "Audio Tone Example"
+output = "audio-tone"
+build_dir = "build"
+kernel_mode = false

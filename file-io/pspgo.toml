@@ -1,0 +1,4 @@
+title = "File I/O Example"
+output = "file-io"
+build_dir = "build"
+kernel_mode = false

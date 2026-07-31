@@ -8,6 +8,12 @@ This repository contains example code for developing applications using [PSPSDK 
 | --- | --- |
 | `hello` | Prints text using the debug screen |
 | `controller` | Displays button and analog stick input |
+| `audio-tone` | Generates a square wave and sends it to the audio hardware |
+| `clock` | Reads and displays the local time using the RTC |
+| `power-status` | Displays battery, power, and clock-frequency information |
+| `file-io` | Creates, writes, and reads a file |
+| `system-params` | Reads the PSP nickname and system preferences |
+| `wifi-info` | Displays the WLAN switch, power state, and MAC address |
 | `triangle` | Draws a rotating, colored triangle with GU/GUM |
 | `cube` | Draws a rotating, colored 3D cube with GU/GUM |
 
