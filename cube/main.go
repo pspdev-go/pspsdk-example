@@ -43,8 +43,9 @@ var cube = [...]vertex{
 }
 
 func alignedDisplayList() unsafe.Pointer {
-	address := uintptr(unsafe.Pointer(&displayList[0]))
-	return unsafe.Pointer((address + 15) &^ uintptr(15))
+	base := unsafe.Pointer(&displayList[0])
+	offset := -uintptr(base) & 15
+	return unsafe.Add(base, offset)
 }
 
 func initGraphics() {
